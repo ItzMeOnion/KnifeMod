@@ -149,7 +149,11 @@ tasks.register("generateKnives") {
   }
 }
 """
-        }
+        }    
+        lang["category.knifemod"] = "Knife Cases"
+        lang["key.knifemod.open_menu"] = "Open case menu"
+        lang["key.knifemod.spin"] = "Spin knife"
+        lang["key.knifemod.inspect"] = "Inspect knife"
         new File(assetDir, "lang/en_us.json").text =
                 groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(lang))
         logger.lifecycle("Generated ${knives.size()} knives")
