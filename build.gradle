@@ -11,14 +11,12 @@ base {
 }
 
 loom {
-    splitEnvironmentSourceSets()
     mods {
         "knifemod" {
             sourceSet sourceSets.main
-            sourceSet sourceSets.client
         }
     }
-}
+}}
 
 repositories {
 }
