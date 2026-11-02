@@ -19,8 +19,7 @@ import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public class KnifeClient implements ClientModInitializer {
-    private static final KeyBinding.Category CATEGORY =
-            KeyBinding.Category.create(Identifier.of(KnifeMod.MOD_ID, "main"));
+        private static final String CATEGORY = "category.knifemod";
 
     private static KeyBinding openMenu;
     private static KeyBinding spinKey;
