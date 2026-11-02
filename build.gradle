@@ -16,7 +16,7 @@ loom {
             sourceSet sourceSets.main
         }
     }
-}}
+}
 
 repositories {
 }
